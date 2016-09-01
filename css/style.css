@@ -325,6 +325,7 @@ a {
 
 .section-title{
     position    : relative;
+    margin-top: 30px;
 }
 
 .section-title:before{
@@ -757,7 +758,7 @@ padding-right       :20px;
 
 
 .clean-idea{
-    background              : url("../img/clean.png")no-repeat center center fixed;
+    
     background-size         : cover;
     position                : relative;
 }

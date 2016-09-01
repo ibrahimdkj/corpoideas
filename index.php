@@ -54,25 +54,12 @@
 <body>
  
   <div class="main" id="home">
-    <div data-vide-bg="video/working">
-    <div class="center-container">
-    <div class="container">           
-      <div class="box_1-top">
-        <div class="banner-info">
-            <h2>IDEAS CORPORATIVAS PARA TU EMPRESA</h2>
-            <h3>Desarrollo web, Social Media, Posicionamiento, Diseño</h3>
-            <a class="hvr-rectangle-out button page-scroll" href="#about">CONOCE MÁS SOBRE NOSOTROS</a>
-        </div>
-        <div class="arrow text-center"><a class="page-scroll" href="#about"><img src="img/slider_button.png" alt="" /></a></div>
-      </div>
-    </div>
-    </div>
-</div>
+   
 <header  class="header-part">
 
   <div id="home" class="wrapper">
     <!-- Fixed navbar -->
-    <div class="navi navbar-default" role="navigation">
+    <div class="navi navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header page-scroll">
           <a href="#menu">
@@ -83,16 +70,15 @@
               <span class="icon-bar"></span>
             </button>
           </a>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="CorpoIdeas"></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="CorpoIdeas"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse pull-right hidden-xs">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a class="page-scroll" href="#home">Inicio</a></li>
-            <li> <a class="page-scroll" href="#about">Sobre nosotros</a></li>
-            <li> <a class="page-scroll" href="#services">Servicios</a></li>
+            
+            <li> <a class="page-scroll" href="#about">Servicios</a></li>            
             <li> <a class="page-scroll" href="#product">Portafolio</a></li>
             <li> <a class="page-scroll" href="#team">Equipo</a></li>
-            <li><a class="page-scroll" href="#contact">Contactanos</a></li>
+            <li><a class="page-scroll" href="#contact">Contáctanos</a></li>
         <li></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -101,12 +87,14 @@
 </div>
 </header>
 
+
+
 <!-- WHO WE ARE -->
 <section id="about" class="who-we-are section-padding">
   <div class="container">
     <div class="row">
       <div class="wow zoomIn col-xs-12 col-lg-12 text-center p-padding">
-        <h1 class="section-title">Quienes somos</h1>
+        <h1 class="section-title">Servicios</h1>
         <p>Somos una empresa que apoya a las empresas en su inicio y seguimiento de principio a fin aportandole soluciones tecnologicas en pro de la mejora de la marca. En CorpoIdeas tenemos ideas corporativas para tú empresa!  </p>
       </div><!-- col-xs-12 -->
       <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
@@ -148,120 +136,6 @@
     </div><!--/row-->
   </div><!-- /container -->
 </section><!-- /who we wre -->
-
-<!-- OUR SERVICES -->
-<section id="services" class="service section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="wow zoomIn col-xs-12 text-center p-padding">
-        <h1 class="section-title">Nuestros servicios</h1>
-        <p></p>
-      </div><!-- col-xs-12 -->
-      <div class="col-xs-12 col-sm-5 col-md-5">
-        <div class="left-column">
-          <div class="wow zoomIn media">
-            <div class="media-left media-middle">
-              <a href="#">
-                <i class="fa flaticon-christmas128"></i>
-              </a>
-            </div>
-            <div class="media-body">
-              <h2>Efectos en las páginas web</h2>
-              <h3>Para darles un toque diferente</h3>
-              <span>utilizamos diferentes efectos.</span>
-            </div>
-          </div>
-          <div class="wow zoomIn media">
-            <div class="media-left media-middle">
-              <a href="#">
-                <i class="fa fa-database"></i>
-              </a>
-            </div>
-            <div class="media-body">
-              <h2>Claros</h2>
-              <h3>Entre más fácil es para tu cliente encontrar la</h3>
-              <span>información, mucho mejor</span>
-            </div>
-          </div>
-          <div class="wow zoomIn media">
-            <div class="media-left media-middle">
-              <a href="#">
-                <i class="fa fa-compress"></i>
-              </a>
-            </div>
-            <div class="media-body">
-              <h2>Responsive Design</h2>
-              <h3>Nuestras páginas se acomodan a los</h3>
-              <span>diferentes dispositivos</span>
-            </div>
-          </div>
-        </div>
-      </div><!-- col-md-5 -->
-
-      <div class="col-xs-6 col-sm-2 col-md-2 hidden-xs">
-        <div class="image-box">
-          <img class="img-responsive" src="img/phn.png" alt="">
-        </div>
-      </div><!-- /col-md-2 -->
-
-      <div class="col-xs-12 col-sm-5 col-md-5">
-        <div class="right-column">
-          <div class="wow zoomIn media">
-            <div class="media-left media-middle">
-              <a href="#">
-                <i class="fa flaticon-leaf32"></i>
-              </a>
-            </div><!-- media left-->
-            <div class="media-body">
-              <h2>Diferentes estilos</h2>
-              <h3>Variedad de estilos para escoger el que mas se </h3>
-              <span>acomoda a tu marca</span>
-            </div><!--/.media body-->
-          </div><!-- /.media -->
-          <div class="wow zoomIn media">
-            <div class="media-left media-middle">
-              <a href="#">
-                <i class="fa fa-rocket"></i>
-              </a>
-            </div><!-- media left-->
-            <div class="media-body">
-              <h2>Mejoras</h2>
-              <h3>Todo el tiempo se estan buscando mejores formas de </h3>
-              <span>que tu marca llegue a otro nivel</span>
-            </div><!--/.media body-->
-          </div><!-- /.media -->
-          <div class="wow zoomIn media">
-            <div class="media-left media-middle">
-              <a href="#">
-                <i class="fa fa-laptop"></i>
-              </a>
-            </div><!-- media left-->
-            <div class="media-body">
-              <h2>Soporte</h2>
-              <h3>Servicio de soporte tanto para administrar la información </h3>
-              <span>como para inconvenientes que puedas tener</span>
-            </div><!--/.media body-->
-          </div><!-- /.media -->
-        </div><!-- /.right-column -->
-      </div>
-    </div><!-- row-->
-  </div><!-- container -->
-</section><!-- /our services -->
-
-<!-- CLEAN IDEA AND UNIQUE DESIGN -->
-<section id="clean" class="clean-idea section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="wow zoomIn col-xs-12 text-center p-padding">
-        <h1 class="section-title">Ideas de diseño limpias</h1>
-        <p>"El mejor camino para encontrar algo es que las cosas sean claras"</p>
-        <div class="button-set">          
-          <a href="#contact" class="page-scroll contact-us"><i class="fa fa-phone"></i>Contáctanos</a>
-        </div><!-- /.button-set -->
-      </div><!-- col-xs-12 -->
-    </div><!-- row-->
-  </div><!-- container -->
-</section><!-- /clean idea and unique design -->
 
 <!-- OUR LATEST WORKS -->
 <section class="protfolio section-padding" id="product">
@@ -393,7 +267,7 @@
         </div>
         <div class="team-designation">
           <p>Ibrahim Delkairo Jimenez</p>
-          <span>CEO-WEB DESIGNER</span>
+          <span>FRONT END DEVELOPMENT</span>
         </div>
       </div>
 
@@ -415,8 +289,8 @@
           </figure>
         </div>
         <div class="team-designation">
-          <p>Jorge ivan duran</p>
-          <span>Community Manager</span>
+          <p>Luis Orduz Estupiñan</p>
+          <span>BackEnd Development</span>
         </div>
       </div>
       
@@ -503,7 +377,7 @@
         <div class="row">
 
           <div class="wow zoomIn col-xs-12"><p> 
-           <a href="index.html"><img src="img/footer-logo.png" alt=""> </a>
+           <a href="index.php"><img src="img/footer-logo.png" alt=""> </a>
              <a>© 2016 All rights reserved. </a></p>
             <div class="backtop  pull-right">
               <i class="fa fa-angle-up back-to-top"></i>
@@ -514,7 +388,7 @@
          
            <div class="icon-holder icon-text">
             <ul>
-              <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/corpoideas/" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>              
               <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
@@ -532,8 +406,7 @@
 <nav id="menu">
   <ul>
       <li ><a class="page-scroll" href="#home">Inicio</a></li>
-            <li> <a class="page-scroll" href="#about">Sobre nosotros</a></li>
-            <li> <a class="page-scroll" href="#services">Servicios</a></li>
+            <li> <a class="page-scroll" href="#about">Servicios</a></li>            
             <li> <a class="page-scroll" href="#product">Portafolio</a></li>
             <li> <a class="page-scroll" href="#team">Equipo</a></li>
             <li><a class="page-scroll" href="#contact">Contactanos</a></li>
@@ -586,15 +459,7 @@
 <!-- Email JS -->
 <script src="js/email.js"></script>
 
-<script>
-$(window).on('scroll', function(){
-  if( $(window).scrollTop()>600 ){
-    $('.navbar-default').addClass('navbar-fixed-top');
-  } else {
-    $('.navbar-default').removeClass('navbar-fixed-top');
-  }
-});
-</script>
+
  <script src="js/jquery.vide.min.js"></script>
 </body>
 </html>
